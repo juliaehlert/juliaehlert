@@ -1,0 +1,34 @@
+header{
+  width: 800px;
+  height: 100px;
+  background: pink;
+  margin: auto;
+  position: absolute;
+
+}
+body{
+  margin: auto;
+}
+
+.button{
+  text-align: center;
+width: 100px;
+height: 50px;
+  float: right;
+  margin: 5px;
+
+}
+.logo{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+
+}
+
+.container{
+  background: yellow;
+  width: 800px;
+  height: 500px;
+  position: absolute;
+
+}

@@ -1,0 +1,153 @@
+body {
+  margin: 0px;
+}
+
+h1{
+  font-family: "Mr Eaves Mod OT Light";
+  font-weight: normal;
+  font-size: 300%;
+  color: black;
+  margin: auto;
+  text-align: center;
+  padding-top: 69px;
+
+}
+
+/* Navigation links */
+.navbar a {
+  float: none;
+  margin: auto;
+  padding: 12px;
+  color: black;
+  font-family: "Mr Eaves Mod OT Light";
+  text-decoration: none;
+  font-size: 100%;
+  width: 33.33%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover {
+  font-family: "Mr Eaves Mod OT Light";
+  font-weight: bold;
+  color: gray;
+}
+
+/* Style the current/active link */
+.navbar a.active {
+  font-family: "Mr Eaves Mod OT Light";
+  font-weight: bold;
+}
+
+
+
+.imagebuttons{
+  width: 100%;
+  height: 5vw;
+  margin-bottom: 0px;
+  background-position: center;
+  opacity: 1;
+}
+
+.imagebuttons:hover {
+  opacity: 0.51;
+}
+
+#woven{
+  background: url("assets/wovenstripe.png");
+  background-size: cover;
+  background-position: center;
+
+}
+
+#sexed{
+  background: url("assets/sexedstripe.png");
+  background-size: cover;
+  background-position: center;
+
+}
+
+#chromosome{
+  background: url("assets/chromosomestripe.png");
+  background-size: cover;
+  background-position: center;
+
+}
+
+#uic1{
+  background: url("assets/uic1stripe.png");
+  background-size: cover;
+  background-position: center;
+
+}
+
+#coulometer{
+  background: url("assets/uic2stripe.png");
+  background-size: cover;
+  background-position: center;
+
+}
+
+#colorandsound{
+  background: url("assets/soundandcolorstripe.png");
+  background-size: cover;
+  background-position: center;
+
+}
+
+/* .overlay{
+  color: white;
+  font-size: 20px;
+  opacity: 0;
+} */
+/* Style the navigation menu */
+.navbar {
+  width: 100%;
+  background-color: white;
+  color: black;
+  font-family: "Mr Eaves Mod OT Light";
+  overflow: auto;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.images{
+  margin-top: 69px;
+  margin-bottom: 0px;
+  width: 100%;
+
+}
+
+.description{
+  font-size: 70%;
+  margin: 20px 100px 0px 100px;
+  color: black;
+  font-family: "mrs-eaves, serif";
+  text-align: center;
+}
+
+.container{
+  text-align: center;
+  font-size: 70%;
+  color: black;
+  margin-top: 20px;
+  font-family: "Mr Eaves Mod OT Light";
+}
+
+
+.interactive{
+display: inline-block;
+}
+/* .grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 137.047px;
+  background-color: white;
+  padding: 0px;
+}
+.grid-item {
+  background-color: white;
+  border: 0px ;
+  padding: 0px;
+} */

@@ -1,5 +1,66 @@
+.first-column {
+  float: left;
+  width: 33%;
+}
+
+.second-column{
+  float: right;
+  width: 66%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clickfunnel{
+  margin-top: 240px;
+}
+
+.funnelrow2{
+  margin-top: 60px;
+}
+
 body {
   margin: 0px;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  font-family: "Mr Eaves Mod OT Light";
+  font-weight: normal;
+  font-size: 100%;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  font-family: "Mr Eaves Mod OT Light";
+  font-weight: normal;
+  font-size: 100%;
+}
+
+a:hover {
+  color: gray;
+  background-color: transparent;
+  text-decoration: none;
+  font-family: "Mr Eaves Mod OT Light";
+  font-weight: normal;
+  font-size: 100%;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Mr Eaves Mod OT Light";
+  font-size: 100%;
 }
 
 h1{
@@ -9,10 +70,21 @@ h1{
   color: black;
   margin: auto;
   text-align: center;
-  padding-top: 69px;
+  padding-top: 30px;
+}
+
+h2{
+  font-family: "Mr Eaves Mod OT Light";
+  font-weight: normal;
+  font-size: 300%;
+  color: black;
 
 }
 
+.backbutton{
+  margin-top: 50px;
+  margin-left: 100px;
+}
 /* Navigation links */
 .navbar a {
   float: none;
@@ -39,7 +111,20 @@ h1{
   font-weight: bold;
 }
 
+.ProjectInfo{
+  margin-top: 69px;
+  margin-left: 69px;
+  font-family: "Mr Eaves Mod OT Light";
+}
 
+.ProjectContent{
+  margin-top: 69px;
+  padding-top: 10px;
+  margin-left: 50px;
+  margin-right: 69px;
+  font-family: "Mr Eaves Mod OT Light";
+
+}
 
 .imagebuttons{
   width: 100%;
@@ -120,25 +205,18 @@ h1{
 }
 
 .description{
-  font-size: 70%;
-  margin: 20px 100px 0px 100px;
+  font-size: 80%;
   color: black;
-  font-family: "mrs-eaves, serif";
-  text-align: center;
+  font-family: "Mr Eaves Mod OT Light";"
+  text-align: justify;
+
 }
 
-.container{
-  text-align: center;
-  font-size: 70%;
-  color: black;
-  margin-top: 20px;
+p{
   font-family: "Mr Eaves Mod OT Light";
+
 }
 
-
-.interactive{
-display: inline-block;
-}
 /* .grid-container {
   display: grid;
   grid-template-columns: auto;

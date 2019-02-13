@@ -16,12 +16,11 @@
 }
 
 .clickfunnel{
-  margin-top: 240px;
+  margin: 69px;
+
 }
 
-.funnelrow2{
-  margin-top: 60px;
-}
+
 
 body {
   margin: 0px;
@@ -32,7 +31,7 @@ a:link {
   background-color: transparent;
   text-decoration: none;
   font-family: "Mr Eaves Mod OT Light";
-  font-weight: normal;
+  font-weight: bold;
   font-size: 100%;
 }
 
@@ -57,7 +56,7 @@ a:hover {
 a:active {
   color: black;
   background-color: transparent;
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: bold;
   font-family: "Mr Eaves Mod OT Light";
   font-size: 100%;
@@ -126,6 +125,47 @@ h2{
 
 }
 
+
+.navbar {
+  width: 100%;
+  background-color: white;
+  color: black;
+  font-family: "Mr Eaves Mod OT Light";
+  overflow: auto;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+.description{
+  font-size: 110%;
+  color: black;
+  font-family: "Mr Eaves Mod OT Light";"
+  text-align: justify;
+
+}
+
+p{
+  font-family: "Mr Eaves Mod OT Light";
+
+}
+
+.resume{
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    width: 75%;
+}
+
+.images{
+  margin-top: 69px;
+  margin-bottom: 0px;
+  width: 100%;
+
+}
+
 .imagebuttons{
   width: 100%;
   height: 5vw;
@@ -134,9 +174,6 @@ h2{
   opacity: 1;
 }
 
-.imagebuttons:hover {
-  opacity: 0.51;
-}
 
 #woven{
   background: url("assets/wovenstripe.png");
@@ -180,43 +217,32 @@ h2{
 
 }
 
-/* .overlay{
-  color: white;
-  font-size: 20px;
+/* .middle{
+  transition: .5s ease;
   opacity: 0;
-} */
-/* Style the navigation menu */
-.navbar {
-  width: 100%;
-  background-color: white;
-  color: black;
-  font-family: "Mr Eaves Mod OT Light";
-  overflow: auto;
-  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   text-align: center;
-  padding-top: 20px;
-}
+} */
 
-.images{
-  margin-top: 69px;
-  margin-bottom: 0px;
-  width: 100%;
+.imagebuttons:hover {
+  opacity: 0.51;
 
 }
 
-.description{
-  font-size: 80%;
+/* .middle:hover {
+  opacity: 1;
+} */
+
+/* .projecttitles{
   color: black;
-  font-family: "Mr Eaves Mod OT Light";"
-  text-align: justify;
-
-}
-
-p{
   font-family: "Mr Eaves Mod OT Light";
-
-}
-
+  font-size: 100%;
+  padding: 10px;
+} */
 /* .grid-container {
   display: grid;
   grid-template-columns: auto;

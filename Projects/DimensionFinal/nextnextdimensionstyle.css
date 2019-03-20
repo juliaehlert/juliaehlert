@@ -1,0 +1,71 @@
+body{
+  background-image: url("infinitespace.gif");
+  background-size: cover;
+}
+
+.intro{
+  font-family: courier;
+}
+
+.end{
+  font-family: courier;
+}
+
+p{
+  font-family: courier;
+  color: black;
+  text-decoration: none;
+}
+p.centertext{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+}
+
+p.bounce1{
+  top: 10%;
+  left: 10%;
+}
+
+p.anotherbounce{
+  top: 50%;
+  left: 35%;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+/* a{
+  font-family: courier;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  text-decoration: none;
+  color: black;
+} */
+
+iframe{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}

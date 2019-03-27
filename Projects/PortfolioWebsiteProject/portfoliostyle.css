@@ -1,3 +1,29 @@
+.header{
+  margin-top: 40px;
+}
+
+
+h1.julia{
+  font-family: "josefin-slab, serif";
+  font-size: 300%;
+  color: black;
+  display: inline;
+}
+
+h1.ehlert{
+  font-family: "josefin-sans, sans-serif";
+  font-size: 300%;
+  color: black;
+  /* margin: auto;
+  text-align: center;
+  padding-top: 30px; */
+  display: inline;
+}
+
+
+
+
+
 .first-column {
   float: left;
   width: 33%;
@@ -62,15 +88,7 @@ a:active {
   font-size: 100%;
 }
 
-h1{
-  font-family: "Mr Eaves Mod OT Light";
-  font-weight: normal;
-  font-size: 300%;
-  color: black;
-  margin: auto;
-  text-align: center;
-  padding-top: 30px;
-}
+
 
 h2{
   font-family: "Mr Eaves Mod OT Light";

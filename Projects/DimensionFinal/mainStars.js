@@ -9,18 +9,7 @@ $(document).ready(function() {
     $(this).hide();
   });
 
-  $('body').css('background', 'black');
 
-  $(".changebackground").click(function () {
-      $('body').css('background', 'white');
-  });
-
-  $(".changebackground").click(function () {
-      $('body').css('background', 'white');
-  });
-
-
-  });
 
 
 

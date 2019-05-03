@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <link rel="stylesheet" href="CSRprojectstyle.css">
+      <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+      <script src="jquery.js"></script>
+
+    <title></title>
+  </head>
+  <body>
+    <div class="content">
+      <h1>KEEPING BIG BUSINESS ACCOUNTABLE</h1>
+      <h2>How do the <b> top corporations</b> measure up when it comes to <b> social responsibility</b> and <b>ethical practices</b>?
+      </h2>
+      <div class="grid-container">
+            <div class="grid-item">
+                <div class="dropdown">
+                  <div class="dropbtn" >THE CHART
+                  <div class="dropdown-content">
+                    <p>
+                    <b>X-axis: </b> Top 50 of the Fortune 500 companies, in alphabetical order
+                    <br><br>
+                    <b>Y-axis: </b> CSR Score
+                      <br><br>
+                    <b>Circle radius: </b>Company’s revenue for the 2018 fiscal year, in $M
+                      <br><br>
+                    <b>Circle color: </b>Red indicates low (bad) CSR score, green indicates high CSR
+
+                    </p>
+                  </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="grid-item">
+                  <div class="dropdown">
+                    <div class="dropbtn">THE COMPANIES
+                    <div class="dropdown-content">
+                      <p >This project considers the 50 corporations in the United States with the <b>highest revenue</b> of the 2018 fiscal year, - these are the top 10% of the <a href="http://fortune.com/fortune500/">"Fortune 500."</a> These companies collectively represent 30% of the 2018 GDP, or Gross Domestic Product, which is often used as a measure for the economy. That’s over <b>6 trillion dollars </b>($6,000,000,000,000) in revenue from only 50 companies.
+                          <br><br>
+                          These corporations are <b>powerful players</b> in the economy and society at large. They control the flow of materials and goods, including food and necessities. They employ millions of workers, and are responsible for prolific advertising. The fact that these companies have an impact on <b>the environment, their employees,</b> and the <b>surrounding communities</b> is undeniable.
+                      </p>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid-item">
+                    <div class="dropdown">
+                      <div class="dropbtn">CSR SCORES
+                      <div class="dropdown-content">
+                        <p>
+                          This infographic charts the “CSR Scores” for these 50 companies, obtained from <a href="https://www.csrhub.com/">CSRHub.com.</a> CSR stands for “Corporate Social Responsibility.” <br><br> Put simply, <b>CSR is a measurement of a company’s influence on all aspects of society, whether good or bad.</b> CSRHub takes into account four categories when determining CSR scores: <b>environment, community, employees, and governance.</b> For example, does the company cause pollution, underpay its workers, and allow for corrupt leadership on its board? Or does it make a positive impact on society instead?
+                          <br>
+                          <br>
+                        <a href="https://www.investopedia.com/terms/c/corp-social-responsibility.asp">Click here to learn more about CSR</a>
+                        <br>
+                        <br>
+                        <a href="https://esg.csrhub.com/csrhub-ratings-methodology?_ga=2.69751440.1495683997.1556819642-1235410336.1556819642"> Click here to learn more about CSRHub’s methodology </a>
+
+                        </p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+      </div>
+      <div class="infographic">
+        <!-- <div class="chart-title">
+          Corporate Social Responsibility Scores for the Fortune 50
+        </div> -->
+        <div class="chart">
+
+          <!-- <canvas id="myChart" width="400" height="400"></canvas> -->
+
+          <canvas id="CSRchart" class="chartjs"  style="display: block;"></canvas>
+
+        </div>
+        <!-- <div class="key">
+          <p>placeholder for key</p>
+        </div> -->
+      </div>
+
+    </div>
+    <script src="main.js"></script>
+
+  </body>
+</html>
